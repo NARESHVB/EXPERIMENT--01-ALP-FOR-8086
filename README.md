@@ -1,10 +1,16 @@
+
 # EXPERIMENT--01-ALP-FOR-8086
 
-## Name : NARESH.V
 
-## Roll no :212222110027
+#### Name : NARESH.V
 
-## Date of experiment : 20/02/2024
+
+#### Roll no : 212222110027
+
+
+#### Date of experiment : 20/02/2024
+
+
 
 
 
@@ -75,75 +81,125 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
 ```
-org 100h
-mov al,0a5h;
-mov bl,0b7h;
-add al,bl;
-mov [0419H],al;
-ret
+MOV AL,78H;
+MOV BL,69H;
+ADD AL,BL
+HLT
+
+ret                     
 ```
 
+
 ## Output  
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/1cc2a6e8-f1de-4c1f-9c7a-68e5e61d33e7)
 
 
- ![Screenshot 2024-02-20 153229](https://github.com/harishragav272003/EXPERIMENT--01-ALP-FOR-8086/assets/119345345/f02e4f69-413e-4476-8a4a-a1342d279698)
 
 
 ## Subtraction   of 8 bit numbers  ALP 
- ```
-org 100h
-mov al,0a9h;
-mov bl,0b3h;
-sub al,bl;
-mov [0575H],al;
-ret
 ```
+MOV AL,68H;
+MOV BL,33H;
+SUB AL,BL
+HLT
 
+ret                     
+```
 ## Output  
 
-![Screenshot 2024-02-20 153456](https://github.com/harishragav272003/EXPERIMENT--01-ALP-FOR-8086/assets/119345345/9e8db278-89f8-4992-ad40-be68b631ff7f)
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/eda8a410-84d2-40d3-8d22-90e33e92ebd7)
+
+
 
 
 ## Multiplication alp 
 ```
-org 100h
-MOV AL,12H;
+MOV AL,75H;
 MOV BL,12H;
-MUL BL;
-mov [0575H],al;
-ret
+MUL BL
+HLT
+
+ret                     
+
 ```
  ## Output  
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/1d5e2901-8ee7-48ea-a537-4053b26040b1)
 
-![image](https://github.com/harishragav272003/EXPERIMENT--01-ALP-FOR-8086/assets/119345345/2c8097fb-a555-4f66-aa19-262f063c261b)
+
+
 
 
 ## Division alp 
 ```
-org 100h
-
-MOV AL,90H;
+MOV AL,65H;
 MOV BL,15H;
-DIV BL;
-mov [3004H],al;
+DIV BL
+HLT
 
-ret
+ret                     
+
 ```
 
 ## Output  
 
-![Screenshot 2024-02-20 153722](https://github.com/harishragav272003/EXPERIMENT--01-ALP-FOR-8086/assets/119345345/82904e0d-ce58-4f99-8dd8-478768eb6350)
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/f29fba07-9ff6-4631-ab9d-3177efd10473)
 
 
+## Programs for logical operations
+## AND alp
+```
+MOV AL,66H;
+MOV BL,77H;
+AND AL,BL
+HLT
+
+ret
+```
+## Output 
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/08c0dcc1-a7a6-458a-9e65-c4464bc5e4fd)
+
+## OR alp
+```
+MOV AL,99H;
+MOV BL,66H;
+OR AL,BL
+HLT
+
+ret 
+```
+## Output
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/b0e1bd14-d7aa-427c-9886-fc76e90b92ad)
+
+## XOR alp
+```
+MOV AL,85H;
+MOV BL,45H;
+XOR AL,BL
+HLT
+
+ret                                           
+
+```
+## Output
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/fe9093c2-c3dc-480a-86d3-4d00b1304cc7)
+
+## NOT alp
+```
+MOV AL,38H
+NOT AL
+HLT
+
+ret
+```
+## Output
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/6c81460b-6755-4928-b5a0-0afacea57c16)
 
 ## Result :
- 
-Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
+ Hence ALP on fundamental arithmetic and logical operations is verified and executed.
 
 
 
